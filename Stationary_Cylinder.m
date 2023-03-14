@@ -20,15 +20,15 @@ Theta = linspace(0,2*pi, m);        % Rotation from parallel of free stream velo
 
 % Pre-allocating dependant variables to blank mxm matricies (program performance only)
 
-U_x=zeros(m,m);
+U_x = zeros(m,m);
 
 U_y = zeros(m,m);
 
-x=zeros(m,m);
+x = zeros(m,m);
 
-y=zeros(m,m);
+y = zeros(m,m);
 
-U_r=zeros(m,m);
+U_r = zeros(m,m);
 
 U_t = zeros(m,m);
 
